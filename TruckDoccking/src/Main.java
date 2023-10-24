@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class Main {
 
+    // The Main class is for the userinterface
     public static void main(String[] args) {
-        DockStation[] dockStations = new DockStation[5];
+        DockStation[] dockStations = new DockStation[5]; // Array with index 0-4 and they are set to A-E.
         dockStations[0] = new DockStation("A");
         dockStations[1] = new DockStation("B");
         dockStations[2] = new DockStation("C");
