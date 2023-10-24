@@ -1,6 +1,7 @@
 public class Van extends Truck {
 
-    public Van(double weight) {
+    // The Van class is a subclass of Truck.
+    public Van(double weight) {  
         super("Van", weight);
     }
 }
